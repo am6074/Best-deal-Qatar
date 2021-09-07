@@ -6,79 +6,22 @@ html{
 body{
     background-image: linear-gradient(to right, #B5FFFC, #FFDEE9);
     background-size: cover;
-    font-family: Arial, Helvetica, sans-serif;
+    
     color: rgb(67, 6, 95);
 }
-
-header{
-    min-height: 200px;
-    background-color: white;
-    margin-top: 0px;
-    display: flex;
-    align-items: center;
-}
-
-main{
-    min-height: 600px;
-    
-}
-
-footer{
-    min-height: 300px;
-    background-color: cadetblue;
-}
-
-.item1{
-    background-image:url(ASSETS/watches.jpg);
-    background-size: cover;
-    height: 300px; 
-    width: 300px;
-}
-
-.item2{
-    background-image:url(ASSETS/track\ pant.jpg);
-    background-size: cover;
-    height: 300px; 
-    width: 300px;
-}
-.item3{
-    background-image:url(ASSETS/singlasses.jpg);
-    background-size: cover;
-    height: 300px; 
-    width: 300px;
-}
-.item4{
-    background-image:url(ASSETS/smart\ watches.jpg);
-    background-size: cover;
-    height: 300px; 
-    width: 300px;
-}
-.item5{
-    background-image:url(ASSETS/tsirt\ 2.jpg);
-    background-size: cover;
-    height: 300px; 
-    width: 300px;
-}
-.item6{
-    background-image:url(ASSETS/mobile.jpg);
-    background-size: cover;
-    height: 300px; 
-    width: 300px;
-}
-
-
-div{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 40px;
-    margin-bottom: 45px;
-}
-
 .logo{
-    height: 300px;
-    flex: 1;
-}
+    max-height: 20vh;
 
-.title{
-    flex: 3;
-    }
+}
+nav{
+    font-family: 'Play', sans-serif;
+}
+.indigo{
+    color: #8b46d4;
+}
+.pink{
+    color: #fb4b8b;
+}
+a{
+    text-decoration: none !important;
+}
